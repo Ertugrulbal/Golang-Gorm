@@ -102,7 +102,7 @@ func FindAssociation(db *gorm.DB) {
 }
 
 func main() {
-	dsn := "host=18.185.93.196 user=postgres password=postgres dbname=testErtugrul port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+	dsn := "host=xxxx user=xxs password=xxdbname=testxx port=xx sslmode=disable TimeZone=Asia/Shanghai"
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
